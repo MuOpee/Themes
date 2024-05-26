@@ -1,0 +1,74 @@
+/* CSS file */
+
+/* Set the background image for the body */
+body {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Set the image to fit for all browsers */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* styles.css */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+/* Add more custom styles as needed */
+
+.nude-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: purple;
+            color: yellow;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+.nude-button:hover {
+            background-color: grey;
+        }
+.my-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+.my-button:hover {
+            background-color: red;
+        }
+/* Style the footer */
+footer {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
