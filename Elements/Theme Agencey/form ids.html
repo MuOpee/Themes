@@ -1,0 +1,27 @@
+<form id="form">
+  <div class="field">
+    <label for="name">Name</label>
+    <input type="text" name="Name" id="name">
+  </div>
+  <div class="field">
+    <label for="Email">Email</label>
+    <input type="text" name="email" id="email">
+  </div>
+  <div class="field">
+    <label for="phone">Phone Number</label>
+    <input type="number" name="phone" id="phone">
+  </div>
+  <div class="field">
+    <label for="message">Your Message</label>
+    <textarea type="text" name="message" id="message" row="4"></textarea>
+  </div>
+
+  <input type="submit" id="button" value="Send Email" >
+</form>
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('SxD0It3OD8nFm_Ype')
+</script>
